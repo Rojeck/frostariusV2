@@ -709,3 +709,13 @@ header {
         transform: scale(1);
     }
 }
+
+// switch between video and picture on fullscreen page
+
+@media (max-width: 992px) {
+    .fullscreen {
+        video {
+            display: none;
+        }
+    }
+}

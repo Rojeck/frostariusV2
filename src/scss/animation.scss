@@ -131,20 +131,9 @@ body {
 
 // go up button
 
-.go-up-btn {
 
-    animation: go-up-btn 0.6s ease-in-out 0s forwards;
-}
 
-@keyframes go-up-btn {
-    0% {
-        transform: translate(5000px, 5000px);
-    }
 
-    100% {
-        transform: translate(0, 0);
-    }
-}
 @keyframes logo-increase {
     0% {
         transform: scale(0.4);
